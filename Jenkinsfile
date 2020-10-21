@@ -9,7 +9,7 @@ pipeline {
     stage('unit test') {
       steps {
         echo 'this is the first job'
-        sh 'phpunit --version'
+        //sh 'phpunit --version'
       }
     }
 
@@ -19,7 +19,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('test') {
       steps {
         sleep 2
       }
